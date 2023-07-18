@@ -1,0 +1,45 @@
+:root {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #04146c;
+    text-align: left;
+    font-weight: 400;
+}
+@font-face {
+    font-family: "coolvetica";
+    src: url(/assets/coolvetica\ rg.otf);   
+}
+h1 {
+    font-family: "coolvetica";
+    color: #0a2ff1;
+    font-weight: normal;
+    font-size: 5rem;  
+}
+header p{
+    font-weight: 300;
+    font-size: 1.66rem;    
+}
+span{
+    font-weight: 700;
+}
+h2 {
+    font-weight: 900;
+}
+.italic {
+    font-weight: 300;
+    font-style: italic;
+}
+div{
+    width: 25%;
+    padding: 1em;
+    background-color: #eff2ff;
+}
+main{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+img {
+    width: 30%;
+}
